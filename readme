@@ -5,9 +5,9 @@ Link to download the ISO: https://ubuntu.com/download/desktop/thank-you?version=
 o que este script faz?
 
 Install codecs, fonts and tweaks:
-``ubuntu-restricted-extras ``
-``amd64-microcode``
-``font-manager`` 
+`ubuntu-restricted-extras `
+`amd64-microcode`
+`font-manager`
 ``gnome-browser-connector ``
 ``gnome-boxes``
 ``p7zip-rar``
