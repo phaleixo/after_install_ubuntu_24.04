@@ -1,0 +1,42 @@
+Post installation script developed for Ubuntu 24.04, based on my use of programs, configurations and customizations. 
+Link to download the ISO: https://ubuntu.com/download/desktop/thank-you?version=24.04&architecture=amd64&lts=true
+
+o que este script faz?
+
+Install codecs, fonts and tweaks:
+``
+ubuntu-restricted-extras
+amd64-microcode 
+font-manager 
+gnome-browser-connector 
+gnome-boxes
+p7zip-rar
+zsh
+fontconfig
+git
+docker.io
+distrobox
+inkscape
+gimp
+gimp-plugin-registry 
+``
+
+``
+Adding/Confirming 32-bit architecture
+``
+
+``
+Change Firefox Snap to .deb with official Mozilla repository
+``
+``
+Change Radeon to Amdgpu
+``
+
+``
+Install and configure Zsh
+``
+
+Make all improvements:
+```
+curl -o pos_install_complete.sh https://raw.githubusercontent.com/phaleixo/after_install_ubuntu_24.04/main/pos_install_complete.sh && chmod +x pos_install_complete.sh && ./pos_install_complete.sh && rm pos_install_complete.sh
+```
