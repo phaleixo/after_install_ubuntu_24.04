@@ -37,6 +37,7 @@ Install and configure Zsh
 ``
 
 Make all improvements:
+
 ```
 curl -o pos_install_complete.sh https://raw.githubusercontent.com/phaleixo/after_install_ubuntu_24.04/main/pos_install_complete.sh && chmod +x pos_install_complete.sh && ./pos_install_complete.sh && rm pos_install_complete.sh
 ```
